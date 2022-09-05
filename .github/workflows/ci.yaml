@@ -43,7 +43,7 @@ jobs:
         id: docker_build
         uses: docker/build-push-action@v3
         with:
-          push: true
+          push: false
           tags: vitorsavian/fullcycle-ci:latest
           # build-args: |
           #   build=args-1
